@@ -122,6 +122,7 @@ var FloatingLabel  = React.createClass({
         editable: this.props.editable,
         enablesReturnKeyAutomatically: this.props.enablesReturnKeyAutomatically,
         keyboardType: this.props.keyboardType,
+        keyboardAppearance: this.props.keyboardAppearance,
         multiline: this.props.multiline,
         numberOfLines: this.props.numberOfLines,
         onBlur: this._onBlur,
